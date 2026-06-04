@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Guerzhoy :: Research</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="index.html" class="header__brand">Michael Guerzhoy</a>
+                <nav class="nav">
+                    <a href="index.html" class="nav__link">Home</a>
+                    <a href="teaching.html" class="nav__link">Teaching</a>
+                    <a href="research.html" class="nav__link nav__link--active">Research</a>
+                    <a href="students.html" class="nav__link">Students</a>
+                    <a href="advice.html" class="nav__link">Advice</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Research</h1>
+            <p class="page-header__subtitle">Machine Learning, Computer Vision, Data Science, CS/Data Science/AI Education</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <div class="content-grid">
+                <!-- Sidebar Navigation -->
+                <aside class="sidebar">
+                    <span class="sidebar__title">Research Areas</span>
+                    <nav class="sidebar__nav">
+                        <a href="#medicine" class="sidebar__link">ML for Medicine</a>
+                        <a href="#interpretability" class="sidebar__link">Interpretability</a>
+                        <a href="#creativity" class="sidebar__link">Creativity & Psychology</a>
+                        <a href="#applications" class="sidebar__link">AI Applications</a>
+                        <a href="#ai-complexity" class="sidebar__link">AI & Theory of Computation</a>
+                        <a href="#pedagogy-intro" class="sidebar__link">Pedagogy: Intro CS</a>
+                        <a href="#pedagogy-ds" class="sidebar__link">Pedagogy: Data Science</a>
+                        <a href="#pedagogy-ml" class="sidebar__link">Pedagogy: ML</a>
+                        <a href="#statistics" class="sidebar__link">Statistics</a>
+                        <a href="#ComputerVision" class="sidebar__link">Computer Vision</a>
+                    </nav>
+                </aside>
+
+                <!-- Content -->
+                <div class="content">
+                    <!-- ML for Medicine -->
+                    <section id="medicine" class="section research-area">
+                        <h2>Machine Learning for Medicine</h2>
+                        <p class="research-area__intro">I work with clinicians and data scientists to develop NLP methods for extracting patient information from clinical notes and social media data and for understanding the nosology of complex diseases better.</p>
+                        
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Kexin Chen (MIE M.Eng. '24), Noelle Lim (EngSci 2T3), Claire S. Lee (Princeton '20), and Michael Guerzhoy</strong></p>
+                            <p><a href="https://arxiv.org/abs/2412.10414" class="publication__title">Exploring Complex Mental Health Symptoms via Classifying Social Media Data with Explainable LLMs</a></p>
+                            <p class="publication__venue">ML4H at NeurIPS, 2024</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Noelle Lim (EngSci 2T3), Claire S. Lee (Princeton '20), and Michael Guerzhoy</strong></p>
+                            <p><a href="https://aclanthology.org/2024.clpsych-1.14/" class="publication__title">Detecting a Proxy for Potential Comorbid ADHD in People Reporting Anxiety Symptoms from Social Media Data</a></p>
+                            <p class="publication__venue">CLPsych at EACL, 2024</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Amol A. Verma, Hassan Massoom, Chloe Pou-Prom, Saeha Shin, Michael Guerzhoy, et al.</strong></p>
+                            <p><a href="https://www.sciencedirect.com/science/article/abs/pii/S0049384821005296" class="publication__title">Developing and validating natural language processing algorithms for radiology reports compared to ICD-10 codes for identifying venous thromboembolism in hospitalized medical patients</a></p>
+                            <p class="publication__venue">Thrombosis Research, 2021</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>David Landsman, Ahmed Abdelbasit, Christine Wang, Michael Guerzhoy, Ujash Joshi (UofT CS '16), Shaun Mathew (UofT CS '16) et al.</strong></p>
+                            <p><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0247872" class="publication__title">St. Michael's Hospital Tuberculosis Database (SMH-TB), a retrospective cohort of electronic health record data and variables extracted using natural language processing</a></p>
+                            <p class="publication__venue">PLoS One, 2021</p>
+                        </div>
+                    </section>
+
+                    <!-- Interpretability -->
+                    <section id="interpretability" class="section research-area">
+                        <h2>Interpretability and Representation Learning</h2>
+                        <p class="research-area__intro">How do neural networks actually process information? I investigate what features neural networks learn and how they use them, from understanding positional encodings in transformers to how ConvNets process color and intensity.</p>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Paul Yan (EngSci 2T6), Amy Saranchuk (EngSci 2T5) and Michael Guerzhoy</strong></p>
+                            <p><a href="https://openreview.net/pdf?id=85rdlgTS50" class="publication__title">Response Patterns to Rotation Angle in a Rotation Pretext Task Vary Across Datasets and Architectures: An Observation and a Negative Result</a></p>
+                            <p class="publication__venue">NeurReps Workshop at NeurIPS 2025</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Andy Cai (EngSci 2T5), Sajad Hashemi (Indy 2T4), Noah Paulson, and Michael Guerzhoy</strong></p>
+                            <p><a href="https://openaccess.thecvf.com/content/ICCV2025W/ECLR/papers/Cai_Latent_Representation_of_Microstructures_using_Variational_Autoencoders_with_Spatial_Statistics_ICCVW_2025_paper.pdf" class="publication__title">Latent Representation of Microstructures using Variational Autoencoders with Spatial Statistics Space Loss</a></p>
+                            <p class="publication__venue">ECLR Workshop at ICCV, 2025</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Zhi (Whitney) Ji (EngSci 2T5) and Michael Guerzhoy</strong></p>
+                            <p><a href="https://openreview.net/pdf?id=SsN20QK21G" class="publication__title">Shape-Based Features Complement CLIP Features And Features Learned from Voxels in 3D Object Classification</a></p>
+                            <p class="publication__venue">OpenSUN3D Workshop at ICCV, 2025</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Chunsheng (Jason) Zuo (EngSci 2T4), Pavel Guerzhoy, and Michael Guerzhoy</strong></p>
+                            <p><a href="https://aclanthology.org/2025.coling-main.632/" class="publication__title">Positional Information Can Emerge Through Causal Attention Making Nearby Token Embeddings Similar Even Without Positional Encodings</a></p>
+                            <p class="publication__venue">COLING 2025</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Chunsheng (Jason) Zuo (EngSci 2T4) and Michael Guerzhoy</strong></p>
+                            <p><a href="https://arxiv.org/abs/2402.05969" class="publication__title">Breaking Symmetry When Training Transformers</a></p>
+                            <p class="publication__venue">NAACL Student Research Workshop, 2024</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Sajjad Hashemi (Indy 2T4), Michael Guerzhoy, and Noah Paulson</strong></p>
+                            <p><a href="https://arxiv.org/abs/2402.11103" class="publication__title">Toward Learning Latent-Variable Representations of Microstructures by Optimizing in Spatial Statistics Space</a></p>
+                            <p class="publication__venue">ICLR Tiny Papers, 2024</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Cameron Smith (EngSci 2T4), Yiping (Sandra) Wang (EngSci 2T4), and Michael Guerzhoy</strong></p>
+                            <p class="publication__title">Synthetic Datasets for Exploring How ConvNets and ViTs Classify Images When Colour is An Important Cue</p>
+                            <p class="publication__venue">CRV Workshops, 2024</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Michael Guerzhoy and Jackson Kaunismaa (EngSci 2T4)</strong></p>
+                            <p><a href="https://openreview.net/forum?id=z2Gr8YqsimF" class="publication__title">How Do ConvNets Understand Image Intensity?</a></p>
+                            <p class="publication__venue">ICLR Tiny Papers, 2023</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Ujash Joshi (UofT CompSci 2016) and Michael Guerzhoy</strong></p>
+                            <p><a href="http://www.cs.toronto.edu/~guerzhoy/oriviz/crv17.pdf" class="publication__title">Automatic Photo Orientation Detection with Convolution Neural Networks</a></p>
+                            <p class="publication__venue">CRV 2017</p>
+                        </div>
+                    </section>
+
+                    <!-- Creativity & Psychology -->
+                    <section id="creativity" class="section research-area">
+                        <h2>ML for Understanding Creativity, Psychology, and Cognitive Science</h2>
+                        <p class="research-area__intro">What makes a chess move "brilliant"? What makes a Wordle game "amusing"? I use machine learning to understand human creativity, cognitive biases, and social psychology.</p>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Ronaldo Luo (EngSci 2T6), Gary Liang (EngSci 2T7), Cindy Liu (EngSci 2T7), Adam Kabbara (EngSci 2T7), Minahil Bakhtawar (EngSci 2T6), Kina Kim (EngSci 2T5), and Michael Guerzhoy</strong></p>
+                            <p><a href="https://arxiv.org/abs/2506.05415" class="publication__title">Automatically Detecting Amusing Games in Wordle</a></p>
+                            <p class="publication__venue">ICCC 2025</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Gary Liang (EngSci 2T7), Adam Kabbara (EngSci 2T7), Cindy Liu (EngSci 2T7), Ronaldo Luo (EngSci 2T6), Kina Kim (EngSci 2T5), and Michael Guerzhoy</strong></p>
+                            <p><a href="https://arxiv.org/pdf/2411.18634" class="publication__title">Semantic, Orthographic, and Phonological Biases in Humans' Wordle Gameplay</a></p>
+                            <p class="publication__venue">Findings of the ACL: IJCNLP-AACL 2025</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Juho Kim (EngSci 2T4) and Michael Guerzhoy</strong></p>
+                            <p><a href="https://aclanthology.org/2024.sicon-1.1/" class="publication__title">Exploring the "Honour Culture" Theory Using Social Media Data</a></p>
+                            <p class="publication__venue">Workshop on Social Influence in Conversations at EMNLP, 2024</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Sophie Lee (EngSci 2T6) and Michael Guerzhoy</strong></p>
+                            <p><a href="https://zenodo.org/records/14029382" class="publication__title">Quantifying the Complexity of Literary Fiction</a></p>
+                            <p class="publication__venue">NLP for Digital Humanities Workshop at EMNLP, 2024</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Kamron Zaidi (EngSci 2T4) and Michael Guerzhoy</strong></p>
+                            <p><a href="https://computationalcreativity.net/iccc24/papers/ICCC24_paper_200.pdf" class="publication__title">Predicting User Perception of Move Brilliance in Chess</a></p>
+                            <p class="publication__venue">ICCC 2024 <span class="publication__badge">Featured in New Scientist and CBC Radio</span></p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Pavlos Constas (EngSci 2T8), Vikram Rawal (EngSci 2T6), Matthew Honorio Oliveira (EngSci 2T6), Andreas Constas (EngSci 2T5), Aditya Khan (Statistics '25), Kaison Cheung (CIV 2T3), Najma Sultani (EngSci 2T7), Carrie Chen (Cornell '28), Micol Altomare (EngSci 2T6), Michael Akzam (ECE 2T6), Jiacheng Chen (EngSci 2T5), Vhea He (EngSci 2T7), Lauren Altomare (EngSci 2T6), Heraa Murqi (EngSci 2T6), Asad Khan (Computer Science '25), Nimit Amikumar Bhanshali (Computer Science '24'), Youssef Rachad (EngSci 2T6), and Michael Guerzhoy</strong></p>
+                            <p><a href="https://ceur-ws.org/Vol-3649/Paper23.pdf" class="publication__title">Toward A Reinforcement-Learning-Based System for Adjusting Medication to Minimize Speech Disfluency</a></p>
+                            <p class="publication__venue">ML for Cognitive and Mental Health Workshop at AAAI, 2024</p>
+                        </div>
+                    </section>
+
+                    <!-- AI Applications -->
+                    <section id="applications" class="section research-area">
+                        <h2>AI and Data Science Applications</h2>
+                        <p class="research-area__intro">From materials design to travel modeling to scientific literature analysis, I work on applying machine learning and data science to diverse real-world problems.</p>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Mengli (Dawn) Duan (UofT UTIAS MEng '26) and Michael Guerzhoy</strong></p>
+                            <p><a href="https://openreview.net/pdf?id=p0DeYk22Xu" class="publication__title">Automatically Extracting Scientific Metrics with LLMs: A Case Study of ImageNet Papers</a></p>
+                            <p class="publication__venue">Workshop at NeurIPS 2025</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Andy Cai (EngSci 2T5), Sajad Hashemi (Indy 2T4), Noah Paulson, and Michael Guerzhoy</strong></p>
+                            <p><a href="https://openaccess.thecvf.com/content/ICCV2025W/ECLR/papers/Cai_Latent_Representation_of_Microstructures_using_Variational_Autoencoders_with_Spatial_Statistics_ICCVW_2025_paper.pdf" class="publication__title">Latent Representation of Microstructures using Variational Autoencoders with Spatial Statistics Space Loss</a></p>
+                            <p class="publication__venue">ECLR Workshop at ICCV, 2025</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Sajjad Hashemi (Indy 2T4), Michael Guerzhoy, and Noah Paulson</strong></p>
+                            <p><a href="https://arxiv.org/abs/2402.11103" class="publication__title">Toward Learning Latent-Variable Representations of Microstructures by Optimizing in Spatial Statistics Space</a></p>
+                            <p class="publication__venue">ICLR Tiny Papers, 2024</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Anthony Hein (Princeton '21), May Jiang (Princeton '20), Vydhourie Thiyageswaran (Princeton '21), and Michael Guerzhoy</strong></p>
+                            <p><a href="https://ojs.aaai.org/index.php/AAAI/article/view/17830" class="publication__title">Random Forests for Opponent Hand Estimation in Gin Rummy</a></p>
+                            <p class="publication__venue">EAAI 2021</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Michael Guerzhoy and Aaron Hertzmann</strong></p>
+                            <p><a href="http://www.cs.toronto.edu/~guerzhoy/humantravel/" class="publication__title">Learning Latent Factor Models of Travel Data for Travel Prediction and Analysis</a></p>
+                            <p class="publication__venue">Canadian Conference on AI (AI 2014) <span class="publication__badge">Best Paper Award</span></p>
+                        </div>
+                    </section>
+
+                    <!-- AI & Complexity Theory -->
+                    <section id="ai-complexity" class="section research-area">
+                        <h2>AI &amp; Complexity Theory</h2>
+                        <p class="research-area__intro">I work on theoretical questions around AI systems and language models, including complexity-theoretic limits and related conceptual issues.</p>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Michael Guerzhoy</strong></p>
+                            <p><a href="https://link.springer.com/article/10.1007/s42113-026-00284-w" class="publication__title">Barriers to Complexity-Theoretic Proofs that "AGI" Using Machine Learning is Impossible</a></p>
+                            <p class="publication__venue">Computational Brain &amp; Behavior, 2026 [<a href="https://arxiv.org/abs/2411.06498">arXiv</a>]</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Michael Guerzhoy</strong></p>
+                            <p class="publication__title">Towards Formalizing Skepticism of Language Models: A Taxonomy in the Language of the Theory of Computation</p>
+                            <p class="publication__venue">PhilML Workshop at ICML, 2026 (accepted, non-archival)</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Michael Guerzhoy</strong></p>
+                            <p class="publication__title">Why a Formal Definition of Computational Creativity Might be Elusive</p>
+                            <p class="publication__venue">TCS&amp;CC Workshop at ICCC, 2026 (accepted)</p>
+                        </div>
+                    </section>
+
+                    <!-- Pedagogy: Intro Programming -->
+                    <section id="pedagogy-intro" class="section research-area">
+                        <h2>Pedagogy of Introductory Programming</h2>
+                        <p class="research-area__intro">How do we teach programming effectively? I develop assignments and study teaching methods for introductory computer science courses.</p>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Michael Guerzhoy</strong></p>
+                            <p class="publication__title">Hopfield Networks in CS1</p>
+                            <p class="publication__venue">ITiCSE, 2026 (accepted)</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Joel Porquet-Lupine, Maria Ebling, Dan Garcia, Colleen Lewis, Michael Guerzhoy, Bill Siever, Ben Stephenson, and Jim Williams</strong></p>
+                            <p class="publication__title">Sticky Analogies</p>
+                            <p class="publication__venue">SIGCSE TS (Birds-of-a-Feather), 2026</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Michael Guerzhoy</strong></p>
+                            <p><a href="https://ssc.ca/en/meeting/annual/presentation/synergies-between-intro-data-science-and-intro-programming-purely" class="publication__title">Synergies between Intro to Data Science and Intro to Programming via Purely Functional Programming</a></p>
+                            <p class="publication__venue">Statistical Society of Canada (SSC) Annual Meeting, 2025</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Michael Guerzhoy</strong></p>
+                            <p><a href="https://dl.acm.org/doi/10.1145/3724389.3731268" class="publication__title">Getting Used to Pointers with Pointer Drills</a></p>
+                            <p class="publication__venue">ITiCSE 2025</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Claire S. Lee (Princeton '20), Jeremy Du (Princeton '21), and Michael Guerzhoy</strong></p>
+                            <p><a href="https://predictivemodellingearly.github.io/" class="publication__title">Auditing the COMPAS Recidivism Risk Assessment Tool: Predictive Modeling and Fairness in Machine Learning in CS1</a></p>
+                            <p class="publication__venue">ITiCSE 2020</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Michael Guerzhoy</strong></p>
+                            <p><a href="http://nifty.stanford.edu/2018/guerzhoy-pong-ai-tournament/" class="publication__title">A Tournament for Pong AI Engines</a></p>
+                            <p class="publication__venue">Nifty Assignments at SIGCSE 2018</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Michael Guerzhoy, Jackie Chi Kit Cheung, and François Pitt</strong></p>
+                            <p><a href="http://nifty.stanford.edu/2017/guerzhoy-sat-solver/" class="publication__title">Automatically Solving SAT/TOEFL Synonym Questions with Computational Linguistics</a></p>
+                            <p class="publication__venue">Nifty Assignments at SIGCSE 2017</p>
+                        </div>
+                    </section>
+
+                    <!-- Pedagogy: Data Science -->
+                    <section id="pedagogy-ds" class="section research-area">
+                        <h2>Pedagogy of Data Science</h2>
+                        <p class="research-area__intro">How does data science education relate to computer science education? I explore pathways for students to engage with data science and computational thinking.</p>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Tabitha Belshee (Princeton '20), Adam Chang (Princeton '20), Nebil Ibrahim (Princeton '20), Mikako Inaba (Princeton '20), Nikoo Karbassi (Princeton '21), Angelo Kayser-Browne (Princeton '20), Hye Jee Kim (Princeton '21), Rachel Kim (Princeton '21), Seungjae Ryan Lee (Princeton '21), Natalia Orlovsky (Princeton '20), and Michael Guerzhoy</strong></p>
+                            <p><a href="935-Belshee.pdf" class="publication__title">Improving Current and Future Offerings of a Data Science Course through Large-Scale Observation of Students</a></p>
+                            <p class="publication__venue">SIGCSE 2021</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Michael Guerzhoy</strong></p>
+                            <p class="publication__title">Introduction to Data Science as a Pathway to Further Study in Computing</p>
+                            <p class="publication__venue">ICER 2019</p>
+                        </div>
+                    </section>
+
+                    <!-- Pedagogy: ML -->
+                    <section id="pedagogy-ml" class="section research-area">
+                        <h2>Pedagogy of Machine Learning</h2>
+                        <p class="research-area__intro">I design model AI assignments and explore effective ways to teach machine learning concepts, emphasizing interpretation of models and thinking about data.</p>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Michael Guerzhoy and Liam Ernst-Selway (EngSci 2T6)</strong></p>
+                            <p><a href="https://openreview.net/forum?id=NFtoVPrxXs&referrer=%5Bthe%20profile%20of%20Michael%20Guerzhoy%5D(%2Fprofile%3Fid%3D~Michael_Guerzhoy3)" class="publication__title">GPT is Coming to Class: A Song</a></p>
+                            <p class="publication__venue">Education Program at NeurIPS 2025 (on <a href="https://www.youtube.com/watch?v=GYhnBchhbbE">YouTube</a>!)</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Michael Guerzhoy</strong></p>
+                            <p><a href="https://openreview.net/forum?id=vHlXiUBvGV&referrer=%5Bthe%20profile%20of%20Michael%20Guerzhoy%5D(%2Fprofile%3Fid%3D~Michael_Guerzhoy3)" class="publication__title">Understanding How Neural Networks See (And Read): A Slide Deck</a></p>
+                            <p class="publication__venue">Education Program at NeurIPS 2025</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Michael Guerzhoy</strong></p>
+                            <p><a href="https://aclanthology.org/2024.teachingnlp-1.18.pdf" class="publication__title">Occam's Razor and Bender and Koller's Octopus</a></p>
+                            <p class="publication__venue">Workshop on Teaching NLP at ACL, 2024</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Stephen Keeley and Michael Guerzhoy</strong></p>
+                            <p><a href="https://modelai.gettysburg.edu/2020/icu/" class="publication__title">Predicting and Preventing Deaths in the ICU: Designing and Analyzing an AI System</a></p>
+                            <p class="publication__venue">Model AI Assignments at EAAI 2020</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Michael Guerzhoy, Lisa Zhang, and Georgy Noarov (Princeton '20)</strong></p>
+                            <p><a href="https://dl.acm.org/doi/10.1145/3362077.3362082" class="publication__title">AI Education Matters: Building a Fake News Detector</a></p>
+                            <p class="publication__venue">AI Matters 5(3), 2019</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Michael Guerzhoy and Lisa Zhang</strong></p>
+                            <p><a href="https://modelai.gettysburg.edu/2019/fakenews/" class="publication__title">Building a Fake News Detector</a></p>
+                            <p class="publication__venue">Model AI Assignments at EAAI 2019</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Michael Guerzhoy</strong></p>
+                            <p><a href="https://sigai.acm.org/static/aimatters/4-3/AIMatters-4-3-05-Guerzhoy.pdf" class="publication__title">Teaching with Deep Learning Frameworks in Introductory Machine Learning Courses</a></p>
+                            <p class="publication__venue">AI Matters 4(3), 2018</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Michael Guerzhoy and Renjie Liao</strong></p>
+                            <p><a href="http://www.cs.toronto.edu/~guerzhoy/modelai2018/understand-rnn/webpage/" class="publication__title">Understanding How Recurrent Neural Networks Model Text</a></p>
+                            <p class="publication__venue">Model AI Assignments at EAAI 2018</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Michael Guerzhoy</strong></p>
+                            <p><a href="http://modelai.gettysburg.edu/2018/nnfaces/" class="publication__title">Neural Networks for Face Recognition with TensorFlow</a></p>
+                            <p class="publication__venue">Model AI Assignments at EAAI 2018</p>
+                        </div>
+                    </section>
+
+                    <!-- Statistics -->
+                    <section id="statistics" class="section research-area">
+                        <h2>Statistics</h2>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Tracy Qian (EngSci 2T4), Max Piasevoli (Princeton '20), and Michael Guerzhoy</strong></p>
+                            <p><a href="https://ssc.ca/en/meeting/annual/presentation/automatic-model-selection-using-wasserstein-generative-adversarial" class="publication__title">Automatic Model Selection using Wasserstein Generative Adversarial Networks</a></p>
+                            <p class="publication__venue">Statistical Society of Canada (SSC) Annual Meeting, 2024</p>
+                        </div>
+
+                        <div class="publication">
+                            <p class="publication__authors"><strong>Michael Guerzhoy</strong></p>
+                            <p><a href="https://dl.acm.org/doi/10.1145/3631802.3631854" class="publication__title">"Medium-n studies" in computing education conferences</a></p>
+                            <p class="publication__venue">Koli Calling 2023</p>
+                        </div>
+
+                        <div class="card" style="margin: var(--space-lg) 0;">
+                            <figure class="figure" style="margin: 0;">
+                                <a href="images/screenshot.jpg">
+                                    <img src="images/marketplace.jpg" alt="Screenshot from the TV show Marketplace" style="max-width: 300px;">
+                                </a>
+                            </figure>
+                            <div style="margin-top: var(--space-md);">
+                                <p>For an episode of <a href="http://www.cbc.ca/marketplace/">CBC Marketplace</a>, we analyzed data from food safety inspections of locations of restaurant chains nationwide, and produced rankings of restaurants, for each city, and nationwide. We show how to combine data from different cities, in which inspector standards and levels of compliance vary, by modelling the data of the number of violations detected using quasi-Poisson regression, where the city and the chain are covariates. We subsequently worked on fitting hierarchical Bayesian models to the data to identify more differences between chains and model the data better.</p>
+                                
+                                <p style="margin-top: var(--space-sm);"><strong>Episode video:</strong> <a href="http://www.cbc.ca/marketplace/episodes/2013-2014/canadas-restaurant-secrets">Canada's Restaurant Secrets</a>, broadcast on Apr 11, 2014 on CBC. Watch for the Poisson regression formula at 5min 48sec! (<a href="screenshot.jpg">See screenshot</a>, or <a href="https://www.youtube.com/watch?v=ghCOVjAILxo#t=5m48s">watch on youtube</a>.)</p>
+                                
+                                <p style="margin-top: var(--space-sm);"><strong>Technical report:</strong> Michael Guerzhoy and Nathan Taback, <a href="https://www.scribd.com/embeds/217706399/content?start_page=1&amp;view_mode=scroll&amp;access_key=key-11rt537loi8zwbxs1d0w&amp;show_recommendations=true">Ranking Restaurant Chains by the Number of Health Violations Found during Inspections</a>.</p>
+                                
+                                <p style="margin-top: var(--space-sm);"><strong>Contributed conference talk:</strong> <a href="https://ssc.ca/sites/default/files/pdf/ssc15/c2-mg.pdf">Hierarchical Bayesian Models for Uncertainty-Quantified Ranking of Restaurant Chains by Food Safety Compliance</a> (<a href="https://ssc.ca/sites/default/files/pdf/ssc15/c2-mg_f.pdf">French version</a>), at the <a href="http://ssc.ca/en/meetings/2015/">43rd Annual Meeting of the Statistical Society of Canada</a>, June 2015, Halifax, NS.</p>
+                            </div>
+                        </div>
+                    </section>
+<h2>Computer Vision (pre-2020)</h2>
+                    <!-- Computer Vision -->
+                    <section id="ComputerVision" class="section research-area">
+                        <!-- Photo orientation detection -->
+                        <h3>Photo Orientation Detection</h3>
+                        <div class="card" style="overflow: hidden;">
+                            <figure class="figure" style="float: right; margin: 0 0 var(--space-md) var(--space-md);">
+                                <img src="images/photorotate.jpg" alt="A photo of a city, rotated by 180 degrees. Caption on the bottom reads 'this side up'" style="max-width: 200px;">
+                            </figure>
+                            <p>We developed a system that determines the orientation of the input photo (from 0, 90, 180, and 270 degrees). You can try it if you have an Epson scanner.</p>
+                            <p style="margin-top: var(--space-sm);"><strong>Patent:</strong> Michael Guerzhoy and Hui Zhou. <a href="http://www.google.com/patents/US8094971">Method and system for automatically determining the orientation of a digital image</a>. U.S. Patent 8,094,971, issued Apr 30, 2013.</p>
+
+                            <figure class="figure" style="float: right; clear: right; margin: var(--space-md) 0 var(--space-md) var(--space-md);">
+                                <a href="http://files.support.epson.com/htmldocs/prv5ph/prv5phug/scan1_4.htm#S-00700-00500-00300">
+                                    <img src="images/epsondriver.jpg" alt="A screenshot of scanner software" style="max-width: 250px;">
+                                </a>
+                            </figure>
+
+                            <p><strong><a href="https://www.youtube.com/watch?v=IditXxbn6Uw#t=2m26s">Youtube review</a>:</strong> "Auto-photo orientation: <strong>I've tested this feature and it works good</strong>... Without this feature checked, you need to place the upper-left-hand corner of the photo face down in the lower-left corner of the scanner. With this feature turned on (or checked), you can place any corner of the photo, face down in the lower-left corner of the scanner, and <strong>the Epson Perfection does a good job of making sure the photo is right-side-up after scanning</strong>. This is a good feature when you can't remember which corner of the photo you need to place down."</p>
+                        </div>
+                        
+                        
+
+<!-- Background colour detection -->
+                        <h3>Background Colour Detection/Rectangular Object Detection</h3>
+                        <div class="card" style="margin-bottom: var(--space-lg); overflow: hidden;">
+                            <figure class="figure" style="float: right; margin: 0 0 var(--space-md) var(--space-md);">
+                                <img src="images/photosegment.jpg" alt="Several photos lying on a brown background" style="max-width: 250px;">
+                            </figure>
+                            <p>For the background colour detection part, we describe a way to use the fact that the background colour appears in patches and the fact that we can predict the edge statistics of the background/non-background boundary.</p>
+                            <p>We also describe a perceptual organization based rectangle detection algorithm, and use a large synthetically-generated set to tune the parameters.</p>
+                            <p>The intended application is streamlining of the process of scanning in documents like photos and business cards using a flatbed scanner.</p>
+                            <p style="margin-top: var(--space-sm);"><strong>Paper:</strong> Michael Guerzhoy and Hui Zhou. <a href="http://www.cs.toronto.edu/~guerzhoy/crv08.pdf">Segmentation of Rectangular Objects Lying on an Unknown Background in a Small Preview Scan Image</a>. In Proc. of the <a href="http://www.computerrobotvision.org/">Canadian Conference on Computer and Robot Vision</a> (CRV 2008), May 2008, Windsor, Ontario.</p>
+
+                            <div class="patent-list" style="margin-top: var(--space-md);">
+                                <div class="patent-item"><strong>Patent:</strong> Michael Guerzhoy and Hui Zhou. <a href="http://www.google.com/patents/US8098936">Method and apparatus for detecting objects in an image</a>. U.S. Patent 8,098,936, issued Jan 17, 2012.</div>
+                                <div class="patent-item"><strong>Patent:</strong> Michael Guerzhoy and Hui Zhou. <a href="http://www.google.com/patents/US8433133">Method and apparatus for detecting objects in an image</a>. U.S. Patent 8,433,133, issued Apr 30, 2013.</div>
+                            </div>
+                        </div>
+
+                        <!-- Computer vision for speech analysis -->
+                        <h3>Computer Vision for Speech Analysis</h3>
+                        <div class="card" style="margin-bottom: var(--space-lg); overflow: hidden;">
+                            <figure class="figure" style="float: right; margin: 0 0 var(--space-md) var(--space-md);">
+                                <img src="images/phone.jpg" alt="Rotary phone" style="max-width: 150px;">
+                            </figure>
+                            <p>If you compute the spectrogram of a sound signal, you can treat it like an image (kind of) and apply object detection algorithms to analyze it. Specifically, I was working on phone classification.</p>
+                            <p style="margin-top: var(--space-sm);"><strong>Project report (MSc paper):</strong> Michael Guerzhoy, Boosting Local Spectro-Temporal Features for Speech Analysis, 2010. (<a href="http://www.cs.toronto.edu/~guerzhoy/adaphones_abs.pdf">Online abstract</a>.)</p>
+                        </div>
+
+                        
+
+                        
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Guerzhoy :: Homepage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="index.html" class="header__brand">Michael Guerzhoy</a>
+                <nav class="nav">
+                    <a href="index.html" class="nav__link nav__link--active">Home</a>
+                    <a href="teaching.html" class="nav__link">Teaching</a>
+                    <a href="research.html" class="nav__link">Research</a>
+                    <a href="students.html" class="nav__link">Students</a>
+                    <a href="advice.html" class="nav__link">Advice</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- News Banner -->
+    <div class="news-banner">
+        <div class="container">
+            <div class="news-banner__content">
+                <span class="news-banner__label">New!</span>
+                <span class="news-banner__text">
+                    New Scientist <a href="https://www.newscientist.com/article/2436253-ai-can-identify-the-most-brilliant-and-entertaining-chess-moves/">covered</a> our work on human perception of chess move brilliance (ICCC <a href="https://computationalcreativity.net/iccc24/papers/ICCC24_paper_200.pdf">paper</a>). Also covered in a <a href="https://www.chess.com/blog/bjbalas/science-of-chess-what-makes-a-move-seem-brilliant">Chess.com Blog of the Month winner</a>!
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <div class="hero__photo">
+                    <img src="images/mike2018.jpg" alt="Photo of Michael Guerzhoy">
+                </div>
+                <div class="hero__text">
+                    <p class="hero__name">Michael Guerzhoy</p>
+                    <p class="hero__title-label">
+                        <strong>Asistant Professor, Teaching Stream</strong><br>
+                        <a href="https://engsci.utoronto.ca">Division of Engineering Science</a> and
+                        <a href="https://www.mie.utoronto.ca/">Dept. of Mechanical and Industrial Engineering</a>,
+                        cross-appointed to the <a href="https://web.cs.toronto.edu/">Dept. of Computer Science</a>
+                    </p>
+                    <p class="hero__memberships">
+                        Member, <a href="https://tcairem.utoronto.ca/">Temerty Centre for AI Research and Education in Medicine</a> (T-CAIREM)<br>
+                        Member, <a href="https://carte.utoronto.ca/">Centre for Analytics and AI Engineering</a> (CARTE)
+                    </p>
+                    <p class="hero__title-label">
+                        <a href = "http://www.utoronto.ca">University of Toronto</a>
+                    </p>
+                </div>
+                <div class="hero__contact">
+                    <p><strong>Office:</strong> BA 2028</p>
+                    <p><strong>Email:</strong> <a href="mailto:guerzhoy@cs.toronto.edu">guerzhoy@cs.toronto.edu</a></p>
+                    <p><strong>Phone:</strong> +1-416-978-7024</p>
+                    <p><strong>Address:</strong><br>Division of Engineering Science<br>40 St. George Street, Room 2110<br>Toronto, Ontario M5S 2E4<br> Canada</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <div class="content-grid">
+                <!-- Sidebar Navigation -->
+                <aside class="sidebar">
+                    <span class="sidebar__title">On this page</span>
+                    <nav class="sidebar__nav">
+                        <a href="#About" class="sidebar__link">About</a>
+                        <a href="#Teaching" class="sidebar__link">Teaching</a>
+                        <a href="#Assignments" class="sidebar__link">My Assignments</a>
+                        <a href="#Conferences" class="sidebar__link">Conferences</a>
+                        <a href="#Media" class="sidebar__link">Media</a>
+                        <a href="#Misc" class="sidebar__link">Miscellania</a>
+                        <a href="#Justforfun" class="sidebar__link">Just for Fun</a>
+                    </nav>
+                </aside>
+
+                <!-- Content -->
+                <div class="content">
+                    <!-- Recent News -->
+                    <section class="section card card--highlight" style="margin-bottom: var(--space-lg);">
+                        <p><span class="new-tag">NEW!</span> In 2024, van Rooij et al. published the "<a href="https://link.springer.com/article/10.1007/s42113-024-00217-5">Ingenia Theorem</a>" in <em>Computational Brain &amp; Behavior</em>, claiming to have formally proved that achieving "Artificial General Intelligence" is impossible using machine learning. We show that the paper falls short of proving the assertion, in "<a href="https://arxiv.org/abs/2411.06498">Barriers to Complexity-Theoretic Proofs that "AGI" Using Machine Learning is Impossible</a>" (<em>Computational Brain &amp; Behavior</em>, 2026; <a href="https://arxiv.org/abs/2411.06498">arXiv</a>, <a href="https://link.springer.com/article/10.1007/s42113-026-00284-w">Springer</a>).</p>
+                        <p><span class="new-tag">NEW!</span> I spoke to <a href="https://www.cbc.ca/listen/live-radio/1-90-columnists-from-cbc-radio/clip/16141389-want-build-killer-app-dont-code-its-try">CBC Radio</a> about "vibe coding."</p>
+                        <p style="margin-top: var(--space-sm);">
+<span class="new-tag">NEW!</span> <strong>Automatically identifying chess moves humans perceive as brilliant</strong> (as opposed to merely strong), with Kamron Zaidi (EngSci 2T4). <a href="https://computationalcreativity.net/iccc24/papers/ICCC24_paper_200.pdf">Paper: ICCC 2024</a>, covered in <a href="https://www.newscientist.com/article/2436253-ai-can-identify-the-most-brilliant-and-entertaining-chess-moves/">New Scientist</a> and <a href="https://www.chess.com/blog/bjbalas/science-of-chess-what-makes-a-move-seem-brilliant">chess.com</a>.<br>
+<span class="new-tag">NEW!</span> <strong>A mysterious interaction between architectures and datasets</strong> when using the rotation pretext task in self-supervised pretraining, with Paul Yan (EngSci 2T6) and Amy Saranchuk (EngSci 2T5). <a href="https://openreview.net/pdf?id=85rdlgTS50">Paper: NeurIPS 2025 Symmetry and Geometry in Neural Represetations workshop</a>.<br>
+<span class="new-tag">NEW!</span> <strong>Learning a compact representation of microstructures</strong> using a custom VAE, with Andy Cai (EngSci 2T5), Sajjad Hashemi (Indy 2T4), and <a href="https://www.anl.gov/profile/noah-paulson">Noah Paulson</a> (Argonne National Laboratory). <a href="https://openaccess.thecvf.com/content/ICCV2025W/ECLR/papers/Cai_Latent_Representation_of_Microstructures_using_Variational_Autoencoders_with_Spatial_Statistics_ICCVW_2025_paper.pdf">Paper: ICCV 2025 Workshop on Efficient Computing Under Limited Resources</a>.<br>
+<span class="new-tag">NEW!</span> <strong>How and whether modern vision architectures encode symmetry-based information</strong> in images, with Whitney (Zhi) Ji (EngSci 2T5). <a href="https://openreview.net/pdf?id=SsN20QK21G">Paper: NeurIPS 2025 Symmetry and Geometry in Neural Representations Workshop</a>.<br>
+<span class="new-tag">NEW!</span> <strong>A pipeline for gaining insights into complex diseases</strong> by training LLMs on social media data and analyzing their explanations, with Kexin Chen (MIE M.Eng. '24), Noelle Lim (EngSci 2T3), and Claire Lee (Princeton '20). <a href="https://arxiv.org/abs/2412.10414">Paper: Machine Learning for Health (ML4H) @ NeurIPS 2024</a>.<br>
+<span class="new-tag">NEW!</span> <strong>Position information emerges in causal transformers without positional encodings</strong> via similarity of nearby embeddings, with Jason Zuo (EngSci 2T4) and <a href="https://www.math.hawaii.edu/~pavel">Pavel Guerzhoy</a> (UH Mānoa Math). <a href="https://aclanthology.org/2025.coling-main.632/">COLING 2025</a>, <a href="https://mikeguerzhoy.substack.com/p/position-information-emerges-in-causal">summary</a>.<br>
+<span class="new-tag">NEW!</span> <strong>Testing the "Honour Culture" theory using social media data</strong>, with Juho Kim. <a href="https://aclanthology.org/2024.sicon-1.1/">Paper: SiCon wokrshop @ EMNLP 2024</a>.</p>
+                        <p style="margin-top: var(--space-sm);"><strong>NΨ Nocturne</strong> 2T3: <a href="https://www.youtube.com/watch?v=GYhnBchhbbE&list=RDGYhnBchhbbE&start_radio=1">GPT is Coming to Class</a> (as seen at <a href="https://openreview.net/forum?id=NFtoVPrxXs">NeurIPS Education Program 2025</a>). <strong>NΨ Nocturne 2T4</strong>: <a href = "https://www.youtube.com/watch?v=9fpTFxcFve4&t=1s">Defying Gravity/Debugging Properly</a>, <a href="https://www.youtube.com/watch?v=_3pJXsw185c&list=RD_3pJXsw185c&start_radio=1">Desafinado</a>. <strong>NΨ Nocturne 2T3</strong>: <a href="https://www.youtube.com/watch?v=mlA2q8Z611k&list=RDmlA2q8Z611k&start_radio=1">re: Your Grades</a></p>
+                    </section>
+
+                    <!-- About Section -->
+                    <section id="About" class="section">
+                        <h2>About</h2>
+                        <div class="section__content">
+                            <p>I work in machine learning focusing on interpretability and representation learning, using interpretability to understand complex social phenomena, and AI applications, particularly in medicine. I teach computer science and machine learning in the Division of Engineering Science at the University of Toronto.</p>
+                            <p>My <a href="lastname/">last name</a> is pronounced <em>ger</em>-JOY, with a hard "g", and with the "J" pronounced like the "s" in "measure."</p>
+                            
+                            <!-- <div class="note">
+                                <p class="note__title">Note to prospective students:</p>
+                                <p>I am happy to discuss collaboration opportunities with <strong>current UofT students</strong>. I get a lot of email from prospective students from outside of the University of Toronto. I am <strong>not able</strong> to help students from outside the University of Toronto get admitted and <strong>not able</strong> to assess applicant files. Please see <a href="https://www.mie.utoronto.ca/graduate./">here</a> and <a href="https://web.cs.toronto.edu/graduate/prospective">here</a> for application information.</p>
+                            </div> -->
+                        </div>
+                    </section>
+
+                    <!-- Teaching Section -->
+                    <section id="Teaching" class="section">
+                        <h2>Teaching</h2>
+                        <div class="section__content">
+                            <div class="teaching-section">
+                                <!--<h3 class="teaching-section__title">Recently Taught</h3>-->
+                                <ul class="course-list">
+                                    <li class="course-item">
+                                        <a href="http://www.cs.toronto.edu/~guerzhoy/ds101" class="course-item__code">Data Science and Functional Programming in R Mini-Course</a>
+                                        <span class="course-item__term">Summer 2023</span>
+                                    </li>
+                                    <li class="course-item">
+                                        <a href="http://www.cs.toronto.edu/~guerzhoy/324/" class="course-item__code">ECE324</a>
+                                        <span class="course-item__name"> — Machine Intelligence, Software, and Neural Networks</span>
+                                        <span class="course-item__term">Winter 2022, Winter 2023</span>
+                                    </li>
+                                    <li class="course-item">
+                                        <a href="http://www.cs.toronto.edu/~guerzhoy/180/" class="course-item__code">ESC180</a>
+                                        <span class="course-item__name"> — Introduction to Computer Programming</span>
+                                        <span class="course-item__term">Fall 2009/2010/2014-2016, 2020-2025</span>
+                                    </li>
+                                    <li class="course-item">
+                                        <a href="190" class="course-item__code">ESC190</a>
+                                        <span class="course-item__name"> — Algorithms and Data Structures</span>
+                                        <span class="course-item__term">Winter 2021-2026</span>
+                                    </li>
+                                    <li class="course-item">
+                                        <span class="course-item__code">MIE490</span>
+                                        <span class="course-item__name"> — Mechanical and Industrial Engineering Capstone</span>
+                                        <span class="course-item__term">Fall-Winter 2022-2023</span>
+                                    </li>
+                                    <li class="course-item">
+                                        <a href="http://www.cs.toronto.edu/~guerzhoy/201s20/" class="course-item__code">SML201</a>
+                                        <span class="course-item__name"> — Introduction to Data Science</span>
+                                        <span class="course-item__term">Spring 2020</span>
+                                    </li>
+                                    <li class="course-item">
+                                        <a href="http://www.cs.toronto.edu/~guerzhoy/480s20" class="course-item__code">SML480</a>
+                                        <span class="course-item__name"> — Pedagogy of Data Science (NEW!)</span>
+                                        <span class="course-item__term">Spring 2020</span>
+                                    </li>
+                                    <li class="course-item">
+                                        <a href="http://www.cs.toronto.edu/~guerzhoy/310f19/" class="course-item__code">SML310</a>
+                                        <span class="course-item__name"> — Research Projects in Data Science</span>
+                                        <span class="course-item__term">Fall 2019, Fall 2018</span>
+                                    </li>
+                                    <li class="course-item">
+                                        <a href="http://www.cs.toronto.edu/~guerzhoy/201s19/" class="course-item__code">SML201</a>
+                                        <span class="course-item__name"> — Introduction to Data Science</span>
+                                        <span class="course-item__term">Spring 2019</span>
+                                    </li>
+                                    <li class="course-item">
+                                        <a href="http://www.cs.toronto.edu/~guerzhoy/411_2018/" class="course-item__code">CSC411/CSC2515</a>
+                                        <span class="course-item__name"> — Machine Learning and Data Mining</span>
+                                        <span class="course-item__term">Winter 2018</span>
+                                    </li>
+                                    <li class="course-item">
+                                        <a href="http://www.cs.toronto.edu/~guerzhoy/411/" class="course-item__code">CSC411</a>
+                                        <span class="course-item__name"> — Machine Learning and Data Mining</span>
+                                        <span class="course-item__term">Winter 2017</span>
+                                    </li>
+                                    <li class="course-item">
+                                        <a href="http://www.cs.toronto.edu/~guerzhoy/180/" class="course-item__code">CSC180</a>
+                                        <span class="course-item__name"> — Introduction to Computer Programming</span>
+                                        <span class="course-item__term">Fall 2014/2015/2016/2020</span>
+                                    </li>
+                                    <li class="course-item">
+                                        <a href="http://www.utstat.toronto.edu/~guerzhoy/303/" class="course-item__code">STA303/STA1002</a>
+                                        <span class="course-item__name"> — Methods of Data Analysis II</span>
+                                        <span class="course-item__term">Summer 2016</span>
+                                    </li>
+                                    <li class="course-item">
+                                        <a href="http://www.cs.toronto.edu/~guerzhoy/c4m_website_archive/" class="course-item__code">C4M</a>
+                                        <span class="course-item__name"> — Computing for Medicine</span>
+                                        <span class="course-item__term">Winter-Summer 2016</span>
+                                    </li>
+                                    <li class="course-item">
+                                        <a href="http://www.cs.toronto.edu/~guerzhoy/321/" class="course-item__code">CSC321</a>
+                                        <span class="course-item__name"> — Introduction to Neural Networks and Machine Learning</span>
+                                        <span class="course-item__term">Winter 2016 (won the <a href="http://cssu.ca/awards/"><strong>CSSU award for excellence in teaching</strong></a>)</span>
+                                    </li>
+                                    <li class="course-item">
+                                        <a href="http://www.cs.toronto.edu/~guerzhoy/320/" class="course-item__code">CSC320</a>
+                                        <span class="course-item__name"> — Introduction to Visual Computing</span>
+                                        <span class="course-item__term">Winter 2015</span>
+                                    </li>
+                                    <li class="course-item">
+                                        <a href="http://www.cs.toronto.edu/~guerzhoy/165/" class="course-item__code">CSC165</a>
+                                        <span class="course-item__name"> — Mathematical Expression and Reasoning for Computer Science</span>
+                                        <span class="course-item__term">Summer 2014</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- My Assignments Section -->
+                    <section id="Assignments" class="section">
+                        <h2>My Assignments Around the Web</h2>
+                        <div class="section__content">
+                            <p style="margin-bottom: var(--space-lg);">I enjoy creating and sharing my assignments. I sometimes enjoy Googling my name to see who uses them.</p>
+                            
+                            <div class="assignment-list">
+                                <div class="assignment">
+                                    <div class="assignment__title"><a href="http://nifty.stanford.edu/2017/guerzhoy-SAT-synonyms/">Automatically Solving SAT/TOEFL Synonym Questions with Computational Linguistics</a></div>
+                                    <div class="assignment__venue">Nifty Assignments at SIGCSE 2017</div>
+                                    <div class="assignment__description">Used in CPSC231 at the University of Calgary (2017) and in CS2230 at the University of Iowa (2017). Originally designed for CSC180 (2010-2016), with Jackie C.K. Cheung and François Pitt.</div>
+                                </div>
+                                <div class="assignment">
+                                    <div class="assignment__title"><a href="https://CPointerDrills.github.io/">C Pointer Drills</a></div>
+                                    <div class="assignment__venue">ITiCSE 2025</div>
+                                    <div class="assignment__description">Exercises for learning C pointers. Originally designed for ESC190.</div>
+                                </div>
+                                <div class="assignment">
+                                    <div class="assignment__title"><a href="http://modelai.gettysburg.edu/2018/rnntext/index.html">Understanding How Recurrent Neural Networks Model Text</a></div>
+                                    <div class="assignment__venue">Model AI Assignments at EAAI 2018</div>
+                                    <div class="assignment__description">Used in CSC321 at the University of Toronto (2017) and at Hacettepe University in CMP722 (2017) and CMP784 (2018). Originally designed for CSC321 (2016), with Renjie Liao.</div>
+                                </div>
+                                <div class="assignment">
+                                    <div class="assignment__title"><a href="https://PredictiveModellingEarly.github.io">Auditing the COMPAS Recidivism Risk Assessment Tool</a></div>
+                                    <div class="assignment__venue">Tips, Techniques, and Courseware at ITiCSE 2020</div>
+                                    <div class="assignment__description">Originally designed for SML 201 (Spring 2019), with Claire S. Lee and Jeremy Du.</div>
+                                </div>
+                                <div class="assignment">
+                                    <div class="assignment__title"><a href="http://modelai.gettysburg.edu/2018/nnfaces/index.html">Neural Networks for Face Classification with TensorFlow</a></div>
+                                    <div class="assignment__venue">Model AI Assignments at EAAI 2018</div>
+                                    <div class="assignment__description">Used in part at Udacity as part of the Self-Driving Car Engineer Nanodegree (2016-). Some materials used at the Hebrew University of Jerusalem (2017) and at Yale University (2018). Used at Hacettepe University in BBM406, CMP722, and CMP784 (2017-2018). Used at the University of Toronto in ECE521 (2018). Used by the Intel AI Academy (Week 6). Originally designed for CSC321 and CSC411 (2016-2017).</div>
+                                </div>
+                                <div class="assignment">
+                                    <div class="assignment__title"><a href="http://nifty.stanford.edu/2018/guerzhoy-pong-ai-tournament/">AI Engines for Pong</a></div>
+                                    <div class="assignment__venue">Nifty Assignments at SIGCSE 2018</div>
+                                    <div class="assignment__description">Posted on NCWIT's EngageCSEdu. Used in part in the Deep Learning and Artificial Intelligence program at LMU Munich (2019). Originally designed for CSC180 and for contests at the University of Toronto (2014-2016). Used in COMP 202 at McGill University (2020).</div>
+                                </div>
+                                <div class="assignment">
+                                    <div class="assignment__title"><a href="http://modelai.gettysburg.edu/2019/fakenews/">Building a Fake News Detector</a></div>
+                                    <div class="assignment__venue">Model AI Assignments at EAAI 2019</div>
+                                    <div class="assignment__description">Used in part in CSC411/2515 at the University of Toronto (Fall 2018). Originally designed for CSC411/2515 (Winter 2018), with Lisa Zhang.</div>
+                                </div>
+                                <div class="assignment">
+                                    <div class="assignment__title"><a href="http://guerzhoy.princeton.edu/ICURiskPredict/">Predicting and Preventing Deaths in the ICU: Designing and Analyzing an AI System</a></div>
+                                    <div class="assignment__venue">Model AI Assignments at EAAI 2020</div>
+                                    <div class="assignment__description">Used at NYU 2024-. Originally designed for SML 201 (Spring 2019), with Stephen Keeley.</div>
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Conferences Section -->
+                    <section id="Conferences" class="section">
+                        <h2>Conference & contest organization</h2>
+                        <div class="section__content">
+                            <p>Co-chair, <a href="https://nifty.stanford.edu/">Nifty Assignments</a> at SIGCSE TS (2023-2027)</p>
+                            <p>International Scientific Committee and Problem Composition Task Force, <a href="https://ioai-official.org/">International Olympiad on Artificial Intelligence</a> (IOAI) (2024-2026)</p>
+                            <p>Co-chair, <a href="https://eaai-conf.github.io/">Symposium on Educational Advances in Artificial Intelligence</a> (EAAI) 2021-2024, co-located with AAAI</p>
+                            <p>(Inaugaural) Program Committee: <a href="https://torontomachinelearning.com/">Toronto Machine Learning Summit</a> (2017-2018)
+                        </div>
+                    </section>
+
+                    <!-- Media Section -->
+                    <section id="Media" class="section">
+                        <h2>Media</h2>
+                        <div class="section__content">
+                            <p>TV appearances around Geoffrey Hinton's Nobel Prize win, including <a href="https://www.youtube.com/watch?v=rQxv_9Mgftw">CTV News</a>, <a href="https://globalnews.ca/video/10911767/u-of-t-watches-godfather-of-ai-geoffrey-hinton-awarded-nobel-prize/">Global TV</a>, <a href="https://www.youtube.com/watch?v=6yDzLwITht0&t=2445s">CityTV</a>, and CBC Television (2024).</p>
+                            <p>Interviewed by <a href="https://www.cbc.ca/listen/live-radio/1-90-columnists-from-cbc-radio/clip/16141389-want-build-killer-app-dont-code-its-try">CBC Radio</a> on vibe coding (<a href="https://www.cbc.ca/radio/thecurrent/vibe-coding-cyanide-ice-cream-1.7531196">follow-up article</a>) (2025).</p>
+                            <p><em>New Scientist</em> <a href="https://www.newscientist.com/article/2436253-ai-can-identify-the-most-brilliant-and-entertaining-chess-moves/">covered</a> our work on human perception of chess brilliance (2024), also featured in a <a href="https://www.chess.com/blog/bjbalas/science-of-chess-what-makes-a-move-seem-brilliant">Chess.com Blog of the Month winner</a>.</p>
+                            <p>Quoted in <em>MIT Technology Review</em> (2017) on <a href="https://www.technologyreview.com/s/608094/google-stakes-its-future-on-a-piece-of-software/">teaching machine learning with TensorFlow</a>; also in <em><a href="http://www.businessinsider.com/googles-plan-to-best-amazon-rests-on-one-particular-piece-of-software-2017-7">Business Insider</a></em>.</p>
+                            <p>Quoted in <em>The Varsity</em> (2017) on <a href="http://thevarsity.ca/2017/02/06/curing-disease-with-scientific-literature/">AI for literature search and careers in ML/data science</a>; quoted in <em>The Cannon</em> on <a href="https://issuu.com/thecannon/docs/the_cannon-november_-_final_92230cceb52141">grading policies</a>.</p>
+                            <p>Internal UofT/Princeton stuff: <em>UofT News</em> on <a href="https://www.utoronto.ca/news/bridging-disciplinary-divide">Computing for Medicine</a> (2016), <a href = "https://www.utoronto.ca/news/u-t-undergraduate-students-explore-use-ai-treat-speech-disfluency">the RL for medication tuning</a> project (2024), and the <a href ="https://news.engineering.utoronto.ca/u-of-t-engineering-researchers-use-chess-ai-to-understand-human-creativity/">perception of chess move brilliance</a> project (2024). Princeton CSML articles on <a href = "https://csml.princeton.edu/news/where-do-extroverted-daters-work-students-study-dating-profiles-learn-about-data-science">the data visualization contest</a> (2019) and on <a href = "https://csml.princeton.edu/news/csml-students-advancing-data-science-education-campus-and-beyond">publishing peer-reviewed pedagogical materials</a> (2020). Welcome pieces from when I started at <a href = "https://csml.princeton.edu/news/michael-guerzhoy-new-lecturer-center-statistics-and-machine-learning">Princeton CSML in 2018</a> and <a href = "https://news.engineering.utoronto.ca/new-faculty-member-michael-guerzhoy-joins-engsci-mie/">UofT Engineering in 2020</a>.
+                        </div>
+                    </section>
+
+                    <!-- Miscellania Section -->
+                    <section id="Misc" class="section">
+                        <h2>Miscellania</h2>
+                        <div class="section__content">
+                            <p><a href="http://www.cs.toronto.edu/~guerzhoy/reference.html">Advice to students about asking for reference letters</a></p>
+                            <p>Come to the <a href="https://csml.princeton.edu/readinggroup">CSML Reading Group</a></p>
+                            <p><a href="http://www.cs.toronto.edu/~guerzhoy/tf_alexnet">AlexNet implementation+weights in TensorFlow</a></p>
+                            <p><a href="http://datasciencetoronto.com/uoft-data-science-team/">The UofT Data Science Team</a></p>
+                        </div>
+                    </section>
+
+                    <!-- Just for Fun Section -->
+                    <section id="Justforfun" class="section">
+                        <h2>Just for Fun</h2>
+                        <div class="section__content">
+                            <p>Back in grad school, I used to co-ordinate the <a href="http://www.cs.toronto.edu/~guerzhoy/cookies/">weekly CSGSBS cookie breaks</a>.</p>
+                            <p><a href="http://www.cs.toronto.edu/~guerzhoy/bogosort/DerandomizedBogosort.html">Derandomizing Bogosort: A Very Serious Webpage</a>.</p>
+                            <p><a href="https://www.youtube.com/watch?v=RBCuXNn8BD8&t=370s">Re: Your Grades</a> at the NΨ 2017 Nocturne Talent Show (<a href="http://www.cs.toronto.edu/~guerzhoy/reyourgrades.txt">lyrics</a>).</p>
+                            <p><a href="love_gradient.mov">How Deep is Your Love with Gradient Descent</a> (note the lyrics: "How deep is your love? I really need to learn.") <a href="https://nbviewer.jupyter.org/github/guerzh/deeplearningvalentine/blob/master/deeplearningvalentine.ipynb">Source code</a>.</p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
