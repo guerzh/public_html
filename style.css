@@ -701,6 +701,94 @@ strong {
     padding: var(--space-xs) 0;
 }
 
+/* Songs Page */
+.song {
+    margin-bottom: var(--space-2xl);
+    scroll-margin-top: 100px;
+}
+
+.song__credits {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-md);
+}
+
+.song__video {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    margin: 0 0 var(--space-sm);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    background: #000;
+}
+
+.song__video iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.song__links {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-md);
+}
+
+.lyrics {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--color-text-secondary);
+    columns: 20rem;
+    column-gap: var(--space-xl);
+}
+
+.lyrics__stanza {
+    break-inside: avoid;
+    margin-bottom: var(--space-md);
+}
+
+.lyrics .chorus-label {
+    color: #6B4C8A;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.lyrics .shout {
+    font-variant: small-caps;
+    letter-spacing: 0.03em;
+    font-weight: 600;
+    color: var(--color-text-primary);
+}
+
+.dialogue {
+    background: var(--color-bg-secondary);
+    border-left: 4px solid var(--color-accent);
+    padding: var(--space-md);
+    border-radius: 0 8px 8px 0;
+    margin: var(--space-md) 0;
+    font-size: 0.92rem;
+    font-style: italic;
+    color: var(--color-text-secondary);
+}
+
+.dialogue p {
+    margin-bottom: var(--space-xs);
+}
+
+.dialogue p:last-child {
+    margin-bottom: 0;
+}
+
+.dialogue strong {
+    font-style: normal;
+    color: var(--color-accent);
+}
+
 /* Responsive Design */
 @media (max-width: 900px) {
     .hero__content {
